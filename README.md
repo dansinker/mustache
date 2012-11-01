@@ -1,68 +1,55 @@
 Does David Axelrod Still Have His Mustache Dot Com
 ========
-                                                                                                    
-                                                                         =DMM=                      
-                                                                MMOMMMMMMMMMMMMMMMM                 
-                                                             MMMMMMMMMMMMMMMMMMMMMMMM               
-                                                           MMMMMMM.       +MMMMMMMMMMMM             
-                                                         MMMMMM             MMMMMMMMMMMM            
-                                                       MMMMMM               $M   MDMMMMMMM          
-                                                     MMMMMM+                       MZMMMMM          
-                                                    MMMMMM                          MZMMMMM         
-                                                    IMMMM                            MMMMMM=        
-                                                    MMMM7                            .MMMMMM        
-                                                    MMMM                              M7MMMMM       
-                                                    MMM                                MMMMMM       
-                                                   MMMM                                 MMMMM,      
-                                                   MMM                                  MMMMMM      
-                                                 O MMM    ,MMMMM                        MMMMMM      
-                                                  MMM   ?MMMMMMMMM                      MMMMMM      
-                                               Z   MM                   MMMMM$          MMMMM?      
-                                                 7 M       MM?MM         MMMMMMM        MMMMM       
-                                              $                           MMMM   M     7MMMMM       
-                                                =?                        M    M7      MMMM.        
-                                             $+                  +        77           ?M=   $      
-                                                ++                                                  
-                                            $7I  M?            M                            M       
-                                                 ?$          M                              M       
-                                           ?7I?+=M$         7  M                                    
-                                                  ?                 ??  .                  I        
-                                        I8Z$7I?+=~:      MMMMMMMMMMMMM   M                 8Z       
-                                                 ~:      MMMMMMMMMMMMMMMM 7                         
-                                          :$7+          MMMM        MMMMMM               II         
-                                                +=~     M.        MMI  MMMM            .            
-                                            $=    ~           MMMMM      MM          MM $,          
-                                                ?+              +                   O               
-                                             $~   :=~M                            .    $            
-                                                ?I  ,= M                        ?    7              
-                                              .    ?~    M                   O        Z             
-                                                  ~  OM    $         M                              
-                                                Z   I                                               
-                                                   $=                            M                  
-                                                  7                            7                    
-                                               M                             M         M            
-                                           +M                             =                         
-                                        MM         ?                   ?              :             
-                                    MM=                      7      M                M              
-                                  M                                                 Z               
-                              $?                              M   M                                 
-                           8                                D    MMM                                
-                        M                                  MMMMMMMMMMM           M                  
-                      M                            M        MMMMMMMMMM                              
-                    ~                              I    +     MMMMMMM   D                           
-                   M                                   M     7MMMMMM      M    ?                    
-                  M                                   M      MMMMMM                                 
-                 M                                  ?D      :MMMMM?                                 
-                M                                          MMMMMMMM                                 
-               M                                          MMMMMMMMM                                 
-              MM                                          MMMMMMMMM                                 
-              M                                          MMMMMMMMMMM                                
-             MM                                          MMMMMMMMMMM                                
-             M$                                         MMMMMMMMMMMM                                
-                                                        MMMMMMMMMMMM                                
-                                                        MMMMMMMMMMMM                                
-                                                       ZMMMMMMMMMMMM,                               
-                                                       MMMMMMMMMMMMM7                               
-                                                       MMMMMMMMMMMMM=                               
-                                                       MMMMMMMMMMMMM                                
-                                                       MMMMMMMMMMMMM                                
+                                                                                                                                                       
+                                                     MM8MMMMMMMMN               
+                                                 NMMMMMMMMMMMMMMMMMM            
+                                               MMMMMM      MMMMMMMMMM           
+                                             MMMMM           MMMMMMMMMM         
+                                           MMMMM             ~   Z MMMM         
+                                          MMMMM                    MMMMM        
+                                          MMMM                      MMMMM       
+                                          MMM                       ?:MMMM      
+                                         MMM                         MMMMM?     
+                                         MMM                          MMMMO     
+                                         MM                           MMMMM     
+                                       , MM   MMMMMM  7               MMMMM     
+                                     .   M   M,  ?MM7     ~I          MMMMM     
+                                       7 M    MMMM        MMMMMM      MMMM$     
+                                    ,                      OMM  M     MMMM      
+                                       ?                       MD     MMM O     
+                                     I? M                    +M$      M   M     
+                                  Z    D$                                       
+                                      ,?~        I$                      ?      
+                                   .I?+M~         D7  ,Z D               M      
+                                       :$     M MMMM      D                     
+                                        M    OMMMMMMMMMMM:              .       
+                                   7I?~ 7    MMM+  $M?MMMMM                     
+                                      +=:    =       =M= MMM         M          
+                                  +    ,=         MMMMM   M             ?       
+                                     7   ~                        7 ~=          
+                                       I  =                                     
+                                        .?               D   M       =          
+                                       $  M     :?    D                         
+                                         $M +                    7              
+                                          7                                     
+                                     ?   ~                   I                  
+                                  M            Z                                
+                              MM                .      +            M           
+                           ?8                      DM                           
+                        M                        +  M             =             
+                    :                           MN MMMM          8              
+                  M                           DMMMMMMMMM                        
+                                             Z   MMMMMM  ~                      
+               M                         ?       MMMMM     M   O                
+              M                          :       MMMM        7                  
+             M                                  MMMMM                           
+            M                                  MMMMMMD                          
+           M~                                 MMMMMMMM                          
+           M                                 MMMMMMMMM                          
+          7M                                 MMMMMMMMM                          
+                                             MMMMMMMMM=                         
+                                            :MMMMMMMMMM                         
+                                            MMMMMMMMMMM                         
+                                            MMMMMMMMMMM                         
+                                            MMMMMMMMMMM                         
+                                            MMMMMMMMMMM                         
