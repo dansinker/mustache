@@ -2,7 +2,8 @@
 <html>
 <head>
 <title>Does Axelrod Still Have His Mustache?</title>
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
 <style type="text/css">
 body {
@@ -214,22 +215,98 @@ li {
 }
 
 }
-
-
 </style>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script type="text/javascript">
+	// i got yer 'minify' right here.
+	(function($) {
+		function updatePolls() {
+			var urls = [
+				'http://elections.huffingtonpost.com/pollster/api/charts/2012-minnesota-president-romney-vs-obama.json?callback=pollsterCallback',
+				'http://elections.huffingtonpost.com/pollster/api/charts/2012-pennsylvania-president-romney-vs-obama.json?callback=pollsterCallback',
+				'http://elections.huffingtonpost.com/pollster/api/charts/2012-michigan-president-romney-vs-obama.json?callback=pollsterCallback'
+			]
+			$.each(urls, function(i, pollurl) {
+				$.ajax({
+					url: pollurl,
+					dataType: 'script',
+					type: 'GET',
+					cache: true
+				});
+			});
+		}
+
+		window.pollsterCallback = function(data){
+			var o,r,lead,leader,resultdiv,nostache;
+			leader = 'O';
+			$.each(data.estimates, function(i, candidate) {
+				if (candidate.choice == 'Obama') {
+					o = candidate.value;
+				} else if (candidate.choice == 'Romney') {
+					r = candidate.value;
+				}
+			});
+			lead = (o-r).toFixed(1);
+			if (lead == 0) {
+				// tie, check for corruption
+				leader = '?';
+				lead = '--';
+			} else if (lead < 0) {
+				// rmoney in the lead, corruption happened
+				leader = 'R';
+				lead = '-'+lead;
+				nostache = true;
+			} else {
+				// all is well
+				lead = '+'+lead;
+			}
+
+			if (data.state == 'PA') {
+				resultdiv = '#paresult';
+			} else if (data.state == 'MN') {
+				resultdiv = '#mnresult';
+			} else if (data.state == 'MI') {
+				resultdiv = '#miresult';
+			}
+
+			if (resultdiv) {
+				$(resultdiv + ' a.leadvalue').html(lead);
+				if (nostache) {
+					$('#thestache').html('no.').css("color","#c00");
+				}
+			}
+		};
+
+		$(document).ready(function() {
+			updatePolls();
+			var currentTime = new Date()
+			var hours = currentTime.getHours()
+			var minutes = currentTime.getMinutes()
+
+			var suffix = 'AM';
+			if (hours >= 12) {
+				suffix = 'PM';
+				hours = hours - 12;
+			}
+			if (hours == 0) hours = 12;
+			if (minutes < 10) minutes = '0' + minutes;
+			$('#lastupdated').html('last updated ' + hours + ':' + minutes + ' ' + suffix);
+		});
+	})(jQuery);
+</script>
 </head>
 <body>
 <div id="text">
-<h1>yes.</h1>
+<h1 id="thestache">yes.</h1>
 <ul id="polls">
-<li><span class="state">l</span> <br>O <a href="http://elections.huffingtonpost.com/pollster/2012-ohio-president-romney-vs-obama">+2.5</a>
-<li><span class="state">V</span> <br>O <a href="http://elections.huffingtonpost.com/pollster/2012-michigan-president-romney-vs-obama">+6.3</a>
-<li><span class="state">W</span> <br>O <a href="http://elections.huffingtonpost.com/pollster/2012-minnesota-president-romney-vs-obama">+6.8</a>
+	<li id="paresult"><span class="state">l</span> <br />O <a href="http://elections.huffingtonpost.com/pollster/2012-pennsylvania-president-romney-vs-obama" class="leadvalue">--</a></li>
+	<li id="miresult"><span class="state">V</span> <br />O <a href="http://elections.huffingtonpost.com/pollster/2012-michigan-president-romney-vs-obama" class="leadvalue">--</a></li>
+	<li id="mnresult"><span class="state">W</span> <br />O <a href="http://elections.huffingtonpost.com/pollster/2012-minnesota-president-romney-vs-obama" class="leadvalue">--</a></li>
 </ul>
-<p>"The veteran adviser to President Obama says he will cut off his treasured mustache if Obama loses any of the Democratic-leaning states of Pennsylvania, Michigan and Minnesota in next week's election." &mdash;<a href="http://www.usatoday.com/story/theoval/2012/10/31/obama-david-axelrod-mustache-pennsylvania-michigan-minnesota/1671339/">USA Today</a></p>
+<p>"The veteran adviser to President Obama says he will cut off his treasured mustache if Obama loses any of the Democratic-leaning states of Pennsylvania, Michigan and Minnesota in next week's election." —<a href="http://www.usatoday.com/story/theoval/2012/10/31/obama-david-axelrod-mustache-pennsylvania-michigan-minnesota/1671339/">USA Today</a></p>
 
 </div>
-<img src="axe.png" class="axelrod">
-<footer>built by <a href="http://www.twitter.com/dansinker">@dansinker</a> | poll data last updated 12:30pm CST
+<img src="axe.png" class="axelrod" />
+<footer>built by @dansinker | poll data <span id="lastupdated"></span></footer>
 </body>
 </html>
