@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Does Axelrod Still Have His Mustache?</title>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+
+<style type="text/css">
+body {
+	margin: 0;
+	font-family: Georgia, serif;
+}
+.axelrod {
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	z-index: 1;
+}
+
+#text {
+position: absolute;
+width: 500px;
+	margin-left: 50px;
+	z-index: 10;
+
+}
+
+h1 {
+	font-weight: bold;
+	font-size: 3em;
+	margin-top: 150px;
+		margin-bottom: 0px;
+
+}
+
+p {
+	color:#6b6b6b;
+	font-size: 1em;
+	line-height: 1.5em;
+}
+
+a {
+	text-decoration: none;
+	font-weight: bold;
+	color:#6b6b6b;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+ul {
+	padding-left: 0;
+	font-family: Helvetica, sans-serif;
+	margin-bottom: 35px;
+}
+
+li {
+	list-style: none;
+		display: inline-block;
+		font-size: 1.5em;
+		padding-right: 15px;
+			 color: #9d9d9d;
+			 width: 120px;
+
+}
+
+footer {
+	position: absolute;
+	left: 10px;
+	bottom: 10px;
+	z-index: 20;
+	font-family: helvetica, sans-serif;
+	font-size: .9em;
+
+}
+
+@font-face {
+     font-family: 'StateFaceRegular';
+     src: url('webfont/stateface-regular-webfont.eot');
+     src: url('webfont/stateface-regular-webfont.eot?#iefix') format('embedded-opentype'),
+          url('webfont/stateface-regular-webfont.woff') format('woff'),
+          url('webfont/stateface-regular-webfont.ttf') format('truetype'),
+          url('webfont/stateface-regular-webfont.svg#StateFaceRegular') format('svg');
+     font-weight: normal;
+     font-style: normal;
+ }
+ 
+ .state {
+	 font-family: stateface;
+	 font-size: 4.5em;
+	 color:#9ccde1;
+ }
+
+
+@media screen and (max-width: 950px)
+{
+
+h1 {
+	margin-top: 100px;
+}
+
+#text {
+	width: 300px;
+}
+
+li {
+	font-size: 1em;
+	width: 70px;
+}
+
+}
+
+
+@media screen and (max-width: 700px)
+{
+
+.axelrod {
+	width: 100%;
+}
+
+#text {
+	width: 200px;
+}
+
+
+h1 {
+	margin-top: 50px;
+}
+
+li {
+	display: block;
+}
+
+footer {
+	background-color: #4b4b4b;
+	padding: 3px;
+	color: white;
+	font-size: .8em;
+}
+
+}
+
+@media screen and (max-width: 480px)
+{
+
+p {display: none;}
+
+li {
+	display: list-item;
+}
+
+}
+
+
+</style>
+</head>
+<body>
+<div id="text">
+<h1>yes.</h1>
+<ul id="polls">
+<li><span class="state">l</span> <br>O <a href="http://elections.huffingtonpost.com/pollster/2012-ohio-president-romney-vs-obama">+2.5</a>
+<li><span class="state">V</span> <br>O <a href="http://elections.huffingtonpost.com/pollster/2012-michigan-president-romney-vs-obama">+6.3</a>
+<li><span class="state">W</span> <br>O <a href="http://elections.huffingtonpost.com/pollster/2012-minnesota-president-romney-vs-obama">+6.8</a>
+</ul>
+<p>"The veteran adviser to President Obama says he will cut off his treasured mustache if Obama loses any of the Democratic-leaning states of Pennsylvania, Michigan and Minnesota in next week's election." &mdash;<a href="http://www.usatoday.com/story/theoval/2012/10/31/obama-david-axelrod-mustache-pennsylvania-michigan-minnesota/1671339/">USA Today</a></p>
+
+</div>
+<img src="axe.png" class="axelrod">
+<footer>built by @dansinker | poll data last updated 12:30pm CST
+</body>
+</html>
