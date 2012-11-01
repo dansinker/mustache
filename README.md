@@ -1,4 +1,4 @@
-Does David Axelrod Still Have His Mustache Dot Com
+Does Axelrod Still Have His Mustache Dot Com
 ========
                                                                                                                                                        
                                                      MM8MMMMMMMMN               
